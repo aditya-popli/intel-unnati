@@ -1,0 +1,12 @@
+# Web UI
+gradio>=4.19
+
+# HTML parsing and scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=4.9.3
+
+# Utilities
+tqdm>=4.66.4
+urllib3>=2.2.1  # For consistent HTTPS handling
+
