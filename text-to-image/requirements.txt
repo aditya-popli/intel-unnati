@@ -1,0 +1,21 @@
+# OpenVINO Core and GenAI Toolkit
+openvino>=2025.0
+openvino-tokenizers>=2025.0
+openvino-genai>=2025.0
+
+# Transformers library (compatible with OpenVINO pipelines)
+# Note: Installed from the PyTorch CPU index
+transformers>=4.45,<4.50
+
+# Essential libraries for image generation and UI
+Pillow
+diffusers>=0.30.3
+gradio>=4.19
+typing_extensions>=4.9
+tqdm
+
+# Optimum-Intel from GitHub for HuggingFace model optimizations with OpenVINO
+git+https://github.com/huggingface/optimum-intel.git
+
+# Optional: Compatibility fix for macOS environments
+# numpy<2.0.0
